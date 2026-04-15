@@ -100,8 +100,9 @@ footer {
 
 }
 
-#Backend_Architecture_Img {
+#Backend_Architecture_Img, #Agile_Journey_Img {
   width: 100%;
   height: auto;
   display: block;
 }
+
