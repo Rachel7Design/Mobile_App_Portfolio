@@ -89,3 +89,19 @@ footer {
   padding: 1.25rem;
   font-size: 0.9rem;
 }
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height:100px;
+    padding-left: 30%;
+    margin-top: 5%;
+
+}
+
+#Backend_Architecture_Img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
