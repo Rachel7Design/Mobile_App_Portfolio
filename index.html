@@ -1,72 +1,223 @@
-
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App Process Website Draft</title>
+    <title>ACCESS U-M · Disability Equity Office</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header class="hero">
       <div class="hero-inner">
-        <span class="badge">SI 699 UCAD Final Project
-</span>
-        <h1>ACCESS U-M
-</h1>
-        <p>
-        A mobile app that empowers the U-M community
-        to report accessibility barriers easily.
-
+        <span class="badge">SI 699 · UCAD Final Project</span>
+        <h1>ACCESS U-M</h1>
+        <p class="hero-tagline">
+          A mobile app that empowers the U-M community to report accessibility
+          barriers easily.
+        </p>
+        <p class="hero-meta">
+          University of Michigan · Disability Equity Office
+        </p>
+        <p class="hero-team">
+          Rachel Gonzalo · Kelvin Chang · Ben Tsai · Zichen Zang · Lily Madojemu
+          · Andy Xu
         </p>
       </div>
     </header>
 
     <main class="layout">
       <article class="card">
-        <h2>UX Process</h2>
-        <p>
-          Placeholder content: User research, journey mapping, wireframes,
-          usability testing, and design iteration notes go here.
+        <h2>What’s the Problem?</h2>
+        <div class="card-body">
+          <p><strong>Imagine this:</strong> While heading between classes, you encounter cracked, uneven sidewalks that are difficult to navigate in a wheelchair. The delay causes you to arrive late to class.</p>
+          <p><strong>Or picture this:</strong> You are trying to register for a campus event online, but the form does not work with your screen reader. You email someone and you hope they respond in time.</p>
+          <p>
+            These events happen every day across the University of Michigan’s campus. While there is currently an online reporting form, it lacks features such as geolocation and photograph capture. This makes it harder for users to report issues in the moment and for the Disability Equity Office to accurately track and respond to them.
+          </p>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Why It’s a Problem</h2>
+        <div class="card-body">
+          <h3 class="card-subhead">Limited visibility</h3>
+          <p>
+            The current online form did not record precise location, limiting the Disability Equity Office’s visibility into where barriers were across campus.
+          </p>
+          <h3 class="card-subhead">Hard to track barriers</h3>
+          <p>
+            Without location-specific, mobile-friendly reporting, barriers were harder to track, and people had no quick, direct way to report issues.
+          </p>
+          <h3 class="card-subhead">Meet people where they are</h3>
+          <p>
+            The DEO needed a mobile-friendly reporting tool that made reporting easier and provided actionable location data.
+          </p>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Problem Statement</h2>
+        <p class="card-body card-lead">
+          The existing web reporting process did not provide a mobile-friendly, centralized way for the U-M community or visitors to report physical and digital accessibility barriers in real time with precise location data.
         </p>
       </article>
+
+      <article class="card">
+        <h2>Our Solution</h2>
+        <div class="card-body">
+          <p>
+            A mobile app that enables real-time reporting of accessibility barriers. It uses geolocation and photos to capture precise barrier context.
+          </p>
+          <h3 class="card-subhead">The app in action</h3>
+          <ol class="card-list card-list--numbered">
+            <li>Report barriers in the moment.</li>
+            <li>Capture location and visual context in real time.</li>
+            <li>Stay connected after reporting.</li>
+          </ol>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>UX Process</h2>
+        <div class="card-body">
+          <h3 class="card-subhead">Multi-platform testing</h3>
+          <p>
+            Ran testing on iOS, Android, and various screen sizes, ensuring the experience is consistent across platforms and devices.
+          </p>
+          <h3 class="card-subhead">Design system</h3>
+          <p>
+            Established a shared design system early on. Defined colors, fonts, and components to ensure visual consistency and reusable, sustainable development.
+          </p>
+          <h3 class="card-subhead">Design as we build</h3>
+          <p>
+            Integrates design into the agile workflow, supporting efficiency and rapid iteration.
+          </p>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Design iteration</h2>
+        <div class="card-body">
+          <p>
+            Sprint 1 through Sprint 4 refined the location step: early screens used a dark map with
+            technical coordinate readouts; later sprints moved to a lighter map-first layout under
+            <strong>Report a Barrier</strong>, with clearer titles, search placement, progress, and
+            instructions for placing the pin.
+          </p>
+          <figure class="content-diagram">
+            <img
+              src="./assets/sprint_iterations.png"
+              alt="Four Access U-M phone mockups in a row, Sprint 1 through Sprint 4, showing the location step evolving from dark map with coordinates to light map with Report a Barrier, search, progress, and pin placement."
+              width="1604"
+              height="744"
+              loading="lazy"
+            />
+            <figcaption>
+              Sprint 1–4: location and map UX progression for ACCESS U-M.
+            </figcaption>
+          </figure>
+        </div>
+      </article>
+
       <article class="card">
         <h2>Client Collaboration</h2>
-        <p>
-          Placeholder content: Feedback loops, stakeholder check-ins, demo
-          sessions, approvals, and revision tracking go here.
-        </p>
+        <div class="card-body">
+          <h3 class="card-subhead">Process tips</h3>
+          <ul class="card-list">
+            <li>Internal team meetings a day before the client meeting.</li>
+            <li>Finish assigned tasks early and push to GitHub so the team can test and build on top of it.</li>
+            <li>Double-check that all tasks are done before completing a sprint.</li>
+          </ul>
+        </div>
       </article>
+
       <article class="card">
         <h2>Agile Process</h2>
-        <img id="Agile_Journey_Img" src="images/Agile_Journey.png" alt="Team sprint retrospective chart across four sprints with a blue “feelings” line that rises in Sprint 1, dips in Sprint 2, peaks in Sprint 3, then slightly declines and levels in Sprint 4. Below, a table lists Wins, Struggles, and Actions for each sprint: Wins include increased client communication, rapid progress, improved planning, shared vision, aligned design direction, stronger internal communication, efficient workflow, near-complete delivery, strong collaboration, and more realistic planning. Struggles include unclear client requirements, unfamiliar Jira workflow, external blockers (Firebase/ITS approval), internal misalignment on app direction, carryover work, underestimated task complexity, and dependency-driven delays. Actions include increasing client communication, improving Jira usage and clarifying dependencies, aligning on design before development, breaking down tasks, improving task ownership/execution clarity, and adjusting expectations to prioritize critical work.">
-        <p>
-          Placeholder content: Sprint cadence, backlog grooming, standups,
-          retrospectives, and milestone outcomes go here.
-        </p>
+        <div class="card-body">
+          <p>
+            Work was organized with Jira stories and a product backlog. The team followed an agile journey with sprint-based design iteration (Sprints 1–4).
+          </p>
+          <h3 class="card-subhead">Tech tip</h3>
+          <p>Team communication before GitHub merging = success.</p>
+        </div>
       </article>
+
       <article class="card">
         <h2>Development Process</h2>
-        <p>
-          Placeholder content: Architecture decisions, implementation phases,
-          QA/testing workflow, and deployment approach go here.
-        </p>
+        <div class="card-body">
+          <h3 class="card-subhead">Key aspects</h3>
+          <p><strong>Geolocation</strong> — Provides the location of the physical barrier users are reporting.</p>
+          <p><strong>Photo upload</strong> — Enables the capture and storing of images to show what the barrier is.</p>
+          <h3 class="card-subhead">Backend architecture</h3>
+          <figure class="content-diagram">
+            <img
+              src="./assets/backend.png"
+              alt="Backend architecture: Mobile App (React Native / Expo) connects to Firebase (Firestore, Cloud Storage, Cloud Function onDocumentCreated); Cloud Function connects to Gmail API in Google Workspace."
+              width="1548"
+              height="602"
+              loading="lazy"
+            />
+            <figcaption>
+              Mobile app → Firebase (Firestore, Cloud Storage, Cloud Function) → Gmail API.
+            </figcaption>
+          </figure>
+          <ul class="card-list">
+            <li><strong>Mobile app:</strong> React Native / Expo</li>
+            <li><strong>Firestore</strong> — Firebase database</li>
+            <li><strong>Cloud Storage</strong> — Image attachments</li>
+            <li><strong>Cloud Function</strong> — <code>onDocumentCreated</code></li>
+            <li><strong>Gmail API</strong> — Google Workspace email notifications</li>
+          </ul>
+          <p class="card-note">
+            <strong>Data flow:</strong> App writes a new report to Firestore and uploads an image to Cloud Storage → <code>onDocumentCreated</code> fires a Cloud Function → email notification is sent via the Gmail API.
+          </p>
+        </div>
       </article>
+
       <article class="card">
         <h2>Tech Stack</h2>
-        <div class="logos">
-          <img src="images/react_native_logo.png" alt="React Native">
-          <img src="images/firebase_logo.png" alt="Firebase">
-          <img src="images/Expo_Go_logo.png" alt="Expo Go">      
-      </div>
-        <p>
-        Our technology stack consists of React Native, Firebase, and Expo Go, which allowed us to build a cross-platform (IOS and Android) mobile application.
-        </p>
-        <img id="Backend_Architecture_Img"src="images/Backend_Architecture.png" alt="Diagram titled “Backend Architecture” showing a React Native/Expo mobile app writing reports to Firebase Firestore and uploading image attachments to Firebase Cloud Storage. A Firestore “onDocumentCreated” Cloud Function triggers and sends an email notification via the Google Workspace Gmail API. A caption summarizes the flow: app writes to Firestore + uploads to Storage → Cloud Function fires → email sent via Gmail API.">
+        <div class="card-body">
+          <ul class="card-list card-list--inline">
+            <li>React Native</li>
+            <li>Firebase</li>
+            <li>Expo Go</li>
+          </ul>
+        </div>
       </article>
+
+      <article class="card">
+        <h2>Outcomes &amp; Impact</h2>
+        <div class="card-body">
+          <p>
+            ACCESS U-M is a fully functional mobile app being deployed to the Apple App Store and Google Play Store. Once live, any student, faculty member, or visitor at U-M will be able to download it for free and begin reporting barriers immediately.
+          </p>
+          <ul class="card-list card-list--outcomes">
+            <li><strong>Empowers everyone</strong> — Turns every person on campus into an accessibility advocate.</li>
+            <li><strong>Drives data &amp; action</strong> — Creates a direct channel of communication.</li>
+            <li><strong>Builds a more inclusive U-M</strong> — Informs decisions to make campus spaces, services, and digital tools work for everyone.</li>
+          </ul>
+          <p>
+            While traditional barrier reporting relies on outdated web forms and phone calls, ACCESS U-M empowers users to report accessibility barriers in seconds: turning silent frustrations into campus-wide change.
+          </p>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Proudest Accomplishment</h2>
+        <p class="card-body">Starting to publish an app!</p>
+      </article>
+
+      <section class="card card--closing" aria-labelledby="closing-heading">
+        <h2 id="closing-heading">ACCESS U-M</h2>
+        <p class="card-body">Reporting accessibility barriers in seconds.</p>
+        <p class="card-meta">Available on the App Store &amp; Google Play soon.</p>
+      </section>
     </main>
 
-    <footer>&copy; <span id="year"></span> Process website draft</footer>
+    <footer>
+      &copy; <span id="year"></span> University of Michigan · Disability Equity
+      Office · ACCESS U-M
+    </footer>
 
     <script src="./script.js"></script>
   </body>
