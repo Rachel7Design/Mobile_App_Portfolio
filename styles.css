@@ -306,8 +306,9 @@ footer {
 }
 
 #Access_U-M_Img {
-  width: 10%;
-  height: fit-content;
+  width: clamp(60px, 10%, 120px);
+  height: auto;
   display: block;
   margin: 0 auto;
+  border-radius: 12px;
 }
