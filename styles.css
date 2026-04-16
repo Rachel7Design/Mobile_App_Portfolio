@@ -312,3 +312,9 @@ footer {
   margin: 0 auto;
   border-radius: 12px;
 }
+
+video {
+  width: 100%;
+  height: fit-content;
+  display: block;
+}
