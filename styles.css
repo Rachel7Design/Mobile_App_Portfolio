@@ -299,8 +299,15 @@ footer {
   border: 1px solid var(--line);
 }
 
-#Backend_Architecture_Img, #Agile_Journey_Img {
+#Agile_Journey_Img{
   width: 100%;
+  height: fit-content;
+  display: block;
+}
+
+#Access_U-M_Img {
+  width: 10%;
   height: auto;
   display: block;
+  margin: 0 auto;
 }
