@@ -280,3 +280,27 @@ footer {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
+.logos {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  padding-left: 3%;
+}
+
+.logos img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  background: white;
+  padding: 0.4rem;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+}
+
+#Backend_Architecture_Img, #Agile_Journey_Img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
